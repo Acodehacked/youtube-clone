@@ -63,8 +63,8 @@ function App() {
               }}
             >
               <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/watch/:id" element={<VideoPlayer />} />
+                <Route path="/youtube-clone" element={<Home />} />
+                <Route path="/youtube-clone/watch/:id" element={<VideoPlayer />} />
               </Routes>
             </Box>
           </Box>
