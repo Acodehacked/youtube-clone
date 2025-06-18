@@ -34,7 +34,7 @@ const VideoCard: React.FC<VideoCardProps> = ({
   const navigate = useNavigate();
 
   const handleCardClick = () => {
-    navigate(`/watch/${id}`);
+    navigate(`/youtube-clone/watch/${id}`);
   };
 
   return (
